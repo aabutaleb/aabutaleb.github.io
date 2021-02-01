@@ -1,0 +1,22 @@
+{
+  "name": "abutaleb.me",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabutaleb/abutaleb.me.git"
+  },
+  "author": "Amin Abu-Taleb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aabutaleb/abutaleb.me/issues"
+  },
+  "homepage": "https://github.com/aabutaleb/abutaleb.me#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
