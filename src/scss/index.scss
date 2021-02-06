@@ -1,3 +1,51 @@
-under_construction {
-    margin: 0 auto
+header {
+  background: #00BFB2;
+  background: -webkit-linear-gradient(to bottom, #00BFB2 , #028090);
+  background: linear-gradient(to bottom, #00BFB2 , #028090);
+  padding: 30px 60px 70px 60px;
+}
+
+body {
+  background: #00BFB2;
+  display: block;
+  border-bottom: 10px solid #353535;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  background: #FFEFFF;
+}
+
+.content {
+  position:relative;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  font-size: 28px;
+}
+
+code {
+  background: #FFEFFF;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+#add_to_slack {
+  height: 60px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+#add_to_slack img{
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+#add_to_slack img:hover{
+  transform: scale(1.1);
 }
