@@ -5,6 +5,15 @@ header {
   padding: 30px 60px 70px 60px;
 }
 
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
 body {
   background: #00BFB2;
   display: block;
