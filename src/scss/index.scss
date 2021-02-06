@@ -9,6 +9,7 @@ body {
   background: #00BFB2;
   display: block;
   border-bottom: 10px solid #353535;
+  font-family: 'Work Sans', sans-serif;
 }
 
 body, html {
@@ -65,4 +66,33 @@ nav ul li:hover {
 
 li {
   padding: 0px 30px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #353535;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+  padding: 0px 3px;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.content {
+  height: 500px;
 }
