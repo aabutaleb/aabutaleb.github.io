@@ -1,0 +1,11 @@
+{
+    "input": "src/views/projects/cinephile/*.html",
+    "output": "dist/projects/cinephile",
+    "plugins": {
+        "posthtml-modules": {
+            "root": "./src/views/projects/cinephile",
+            "initial": true
+        },
+        "htmlnano": {}
+    }
+}
