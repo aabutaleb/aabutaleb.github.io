@@ -131,6 +131,12 @@ footer img:hover {
   padding: 30px;
 }
 
+.feature code{
+  color: #C64191;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .feature h3 {
   font-weight: 400;
   font-size: 1.35em;
@@ -178,4 +184,16 @@ h2 {
 
 .planFeatures li {
   padding: 6px 0;
+}
+
+.cost {
+  font-size: 30px;
+  color: #3EC891;
+  font-weight: 200;
+}
+
+.planFeatures code {
+  color: #C64191;
+  font-weight: bold;
+  font-size: 15px;
 }
