@@ -1,3 +1,10 @@
+html, input[type="search"] {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 header {
   background: #00BFB2;
   background: -webkit-linear-gradient(to bottom, #00BFB2 , #028090);
@@ -33,7 +40,7 @@ body, html {
   width: 100%;
 }
 
-p {
+header p {
   text-align: center;
   font-size: 28px;
 }
@@ -79,6 +86,7 @@ li {
 
 footer p {
   font-size: 13px;
+  text-align: center;
   color: #353535;
 }
 
@@ -103,5 +111,71 @@ footer img:hover {
 }
 
 .content {
-  height: 500px;
+  display: block;
+  padding: 30px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+// features
+
+.featureWrapper {
+  display: flex;
+  //flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.feature {
+  flex: 1 0 50%;
+  text-align: center;
+  padding: 30px;
+}
+
+.feature h3 {
+  font-weight: 400;
+  font-size: 1.35em;
+}
+
+section p {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  display: block;
+  font-weight: 300;
+}
+
+
+//pricing
+.plans {
+  display: flex;
+}
+
+.plan {
+  width: 40%;
+  margin: 0 auto;
+  float: left;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04), 0 0px 1px rgba(28,39,72,.15), 0 6px 34px rgba(0,0,0,.09);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.plan h3 {
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 26px;
+}
+
+.planFeatures {
+  font-size: 0.8rem;
+  list-style: none;
+  opacity: 0.6;
+  padding: 0;
+}
+
+.planFeatures li {
+  padding: 6px 0;
 }

@@ -15,7 +15,7 @@
     "build:html": "posthtml -c posthtml.json",
     "build:html2": "posthtml -c posthtml_cinephile.json",
     "watch:html": "onchange \"src/views\" -- npm run build:html",
-    "watch:html2": "onchange \"src/views/projects\" -- npm run build:html2",
+    "watch:html2": "onchange \"src/views/projects/cinephile\" -- npm run build:html2",
     "build:images": "imagemin src/images/**/* --out-dir=dist/images",
     "watch:images": "onchange \"src/images\" -- npm run build:images",
     "watch": "run-p serve watch:*",
