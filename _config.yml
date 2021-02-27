@@ -10,8 +10,15 @@ paginate: 15
 domain_name: "http://yourblog-domain.com"
 google_analytics: "UA-XXXXXXXX-X"
 
+
+# Details for the RSS feed generator
+url: "https://abutaleb.me"
+author: "Amin Abu-Taleb"
+bio: "Engineering Lead @ Wise. <br> Author https://abutaleb.me" 
+
+# Disqus config
+disqus-shortname: ""
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
