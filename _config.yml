@@ -1,3 +1,4 @@
+
 #Kasper
 name: Amin Abu-Taleb
 description: Building some stuffs
@@ -7,23 +8,22 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-domain_name: "http://yourblog-domain.com"
+domain_name: "http://abutaleb.me"
 google_analytics: "UA-XXXXXXXX-X"
 
 
 # Details for the RSS feed generator
 url: "https://abutaleb.me"
 author: "Amin Abu-Taleb"
-bio: "Engineering Lead @ Wise. <br> Author https://abutaleb.me" 
+bio: "Engineering Lead @ Wise. <br> Author https://abutaleb.me"
+thumbnail_path: "/assets/images/profile.png"
 
 # Disqus config
-disqus-shortname: ""
+disqus-shortname: "Amin"
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

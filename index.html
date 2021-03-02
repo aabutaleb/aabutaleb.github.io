@@ -16,6 +16,9 @@ about: 'about.html'
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
+            <a href="{{ site.url }}">
+              {% include image.html path=site.thumbnail_path alt=site.name class="border bg-white p1 border-light-gray circle square-100" %}
+            </a>
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
