@@ -39,3 +39,32 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
 }
+
+a:hover, a h1:hover, a h2:hover, a h3:hover, a h4:hover, a h5:hover, a h6:hover, .link-hover-color {
+  color: $link-hover-color;
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+.hover-background:hover {
+  background-color: $link-hover-color;
+}
+
+.link-color {
+  color: $link-color;
+}
+
+.link-hover-color {
+  color: $link-hover-color;
+}
+
+.bg-link-color {
+  background-color: $link-color;
+}
+
+.bg-link-hover-color {
+  background-color: $link-hover-color;
+}

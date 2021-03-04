@@ -11,13 +11,14 @@ paginate: 10
 paginate_path: "/writing/page:num"
 permalink: "/writing/:year/:month/:day/:title/"
 domain_name: "http://abutaleb.me"
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "UA-69943574-1"
 
 # Details for the RSS feed generator
 url: "https://abutaleb.me"
 author: "Amin Abu-Taleb"
 bio: "Engineering Lead @ Wise. <br> Author https://abutaleb.me"
-thumbnail_path: "/assets/images/profile.png"
+thumbnail_path: "profile.png"
+image_path: "/assets/images"
 
 # Disqus config
 disqus-shortname: "Amin"
