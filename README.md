@@ -6,7 +6,7 @@ Initially based on @rosario's [Kasper](https://github.com/rosario/kasper) I reus
 
 Feel free to Fork and PR!
 
-## How to I run this?
+## How do I run this?
 
 1. Clone the repo: `git clone https://github.com/aabutaleb/aabutaleb.github.io`
 2. Install [Jekyll](https://jekyllrb.com/) $`gem install jekyll bundler`
