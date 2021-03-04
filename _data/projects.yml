@@ -1,0 +1,7 @@
+- name: "Cinephile"
+  date: "2021"
+  description: |
+    Cinephile is a free Slack bot that allows users to search for movies by genre within Slack using slash commands.
+    The bot is written in Python 3.7 running in AWS Lambda. <br>Its website hosted in Github Pages and built using npm.
+  url: "https://www.cinephilebot.site"
+  image: "popcorn.png"

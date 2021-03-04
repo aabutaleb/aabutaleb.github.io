@@ -1,0 +1,33 @@
+---
+layout: default
+title: "Amin Abu-Taleb: Projects"
+header_title: Projects
+nav_item: projects
+---
+
+{% include nav.html %}
+
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <a href="{{ site.url }}">
+              {% include image.html path=site.thumbnail_path alt=site.name class="border bg-white p1 border-light-gray circle square-100" %}
+            </a>
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">
+                {% if site.description %} {{ site.description }}. {% endif %}
+            </h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
+
+
+<main class="container block p3">
+
+  {% for project in site.data.projects %}
+    {% include project-outline.html project=project %}
+  {% endfor %}
+
+</main>
