@@ -35,10 +35,10 @@ nav:
 
 contact_urls:
   twitter:
-    url: "https://twitter.com/amin_aat"
+    url: "https://twitter.com/AminAbuTaleb"
     label: "Twitter"
     icon: "twitter-square"
-    username: "@amin_aat"
+    username: "@AminAbuTaleb"
   linkedin:
     url: "https://www.linkedin.com/in/aminabutaleb"
     label: "LinkedIn"
